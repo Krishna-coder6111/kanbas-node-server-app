@@ -89,4 +89,4 @@ export default [
     dob: "2879-07-15",
     role: "FACULTY",
   },
-];
+]

@@ -44,4 +44,4 @@ export default [
     title: "Systems Engineering Exam",
     course: "RS103",
   },
-];
+]
