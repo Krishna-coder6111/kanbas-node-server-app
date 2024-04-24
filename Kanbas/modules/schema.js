@@ -1,9 +1,12 @@
 import mongoose from "mongoose";
 
 const moduleSchema = new mongoose.Schema({
-  title: { type: String, required: true },
+  id: String,
+  name: String,
   description: String,
-  courseId: { type: mongoose.Schema.Types.ObjectId, ref: 'CourseModel', required: true }
-});
+  course: String,
+  lessons: Array,
+},
+{ collection: "modules"});
 
 export default moduleSchema;
